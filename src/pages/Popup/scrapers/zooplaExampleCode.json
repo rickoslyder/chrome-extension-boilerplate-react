@@ -1,0 +1,425 @@
+{
+  "props": {
+    "pageProps": {
+      "breadcrumbs": [
+        {
+          "__typename": "Breadcrumbs",
+          "label": "Zoopla",
+          "tracking": "home",
+          "uri": "/",
+          "noAppend": null,
+          "i18nLabelKey": null
+        },
+        {
+          "__typename": "Breadcrumbs",
+          "label": "To rent",
+          "tracking": "to rent",
+          "uri": "/to-rent/",
+          "noAppend": null,
+          "i18nLabelKey": null
+        },
+        {
+          "__typename": "Breadcrumbs",
+          "label": "London",
+          "tracking": "london",
+          "uri": "/to-rent/property/london/",
+          "noAppend": null,
+          "i18nLabelKey": null
+        },
+        {
+          "__typename": "Breadcrumbs",
+          "label": "South London",
+          "tracking": "south london",
+          "uri": "/to-rent/property/south-london/",
+          "noAppend": null,
+          "i18nLabelKey": null
+        },
+        {
+          "__typename": "Breadcrumbs",
+          "label": "Clapham",
+          "tracking": "clapham",
+          "uri": "/to-rent/property/london/clapham/",
+          "noAppend": null,
+          "i18nLabelKey": null
+        },
+        {
+          "__typename": "Breadcrumbs",
+          "label": "Wingate Square",
+          "tracking": "wingate square",
+          "uri": "/to-rent/property/london/wingate-square/",
+          "noAppend": null,
+          "i18nLabelKey": null
+        },
+        {
+          "__typename": "Breadcrumbs",
+          "label": "1 bed flat to rent",
+          "tracking": null,
+          "uri": null,
+          "noAppend": 1,
+          "i18nLabelKey": null
+        }
+      ],
+      "listingDetails": {
+        "__typename": "ListingData",
+        "listingId": "53370130",
+        "publishedOn": "2022-11-21T15:39:27",
+        "category": "residential",
+        "section": "to-rent",
+        "additionalLinks": [],
+        "adTargeting": {
+          "__typename": "ListingAnalyticsTaxonomy",
+          "acorn": 15,
+          "acornType": 15,
+          "areaName": "London",
+          "bedsMax": 1,
+          "bedsMin": 1,
+          "branchId": 8177,
+          "branchLogoUrl": "https://st.zoocdn.com/zoopla_static_agent_logo_(249290).png",
+          "branchName": "Winkworth - Clapham",
+          "brandName": "Winkworth",
+          "chainFree": false,
+          "companyId": 4040,
+          "countryCode": "gb",
+          "countyAreaName": "London",
+          "currencyCode": "GBP",
+          "displayAddress": "Wingate Square, London SW4",
+          "furnishedState": "furnished",
+          "groupId": 44,
+          "hasEpc": true,
+          "hasFloorplan": true,
+          "incode": "0AF",
+          "isRetirementHome": false,
+          "isSharedOwnership": false,
+          "listingCondition": "pre-owned",
+          "listingId": 53370130,
+          "listingsCategory": "residential",
+          "listingStatus": "to_rent",
+          "location": "London",
+          "memberType": "agent",
+          "numBaths": 1,
+          "numBeds": 1,
+          "numImages": 6,
+          "numRecepts": 1,
+          "outcode": "SW4",
+          "postalArea": "SW",
+          "postTownName": "London",
+          "priceActual": 2000,
+          "price": 2000,
+          "priceMax": 2000,
+          "priceMin": 2000,
+          "priceQualifier": "",
+          "propertyHighlight": "",
+          "propertyType": "flat",
+          "regionName": "London",
+          "section": "to-rent",
+          "sizeSqFeet": "",
+          "tenure": null,
+          "zindex": 727702
+        },
+        "branch": {
+          "__typename": "AgentBranch",
+          "branchDetailsUri": "/find-agents/branch/winkworth-clapham-london-8177/",
+          "branchId": "8177",
+          "branchResultsUri": "/to-rent/branch/winkworth-clapham-london-8177/",
+          "logoUrl": "https://st.zoocdn.com/zoopla_static_agent_logo_(249290).png",
+          "phone": "020 8115 7895",
+          "name": "Winkworth - Clapham",
+          "memberType": "agent",
+          "address": "30 Old Town, Clapham, London",
+          "postcode": "SW4 0LB"
+        },
+        "pointsOfInterest": [
+          {
+            "__typename": "PointOfInterest",
+            "title": "Clapham Manor Primary School",
+            "type": "uk_school_primary",
+            "distanceMiles": 0.1
+          },
+          {
+            "__typename": "PointOfInterest",
+            "title": "Clapham Common",
+            "type": "london_underground_station",
+            "distanceMiles": 0.2
+          },
+          {
+            "__typename": "PointOfInterest",
+            "title": "St Mary's Roman Catholic Primary School",
+            "type": "uk_school_primary",
+            "distanceMiles": 0.3
+          },
+          {
+            "__typename": "PointOfInterest",
+            "title": "Clapham High Street",
+            "type": "national_rail_station",
+            "distanceMiles": 0.4
+          }
+        ],
+        "embeddedContent": {
+          "__typename": "EmbeddedContent",
+          "videos": null,
+          "tours": null,
+          "links": null,
+          "smartViewings": null
+        },
+        "epc": {
+          "__typename": "EPC",
+          "image": [
+            {
+              "__typename": "Media",
+              "caption": null,
+              "filename": "4465fc41562e9d86043e0c5a95011e1591d792c7.jpg"
+            }
+          ],
+          "links": null,
+          "pdf": null
+        },
+        "counts": {
+          "__typename": "RoomCount",
+          "numBedrooms": 1,
+          "numBathrooms": 1,
+          "numLivingRooms": 1
+        },
+        "location": {
+          "__typename": "ListingLocation",
+          "postalCode": "SW4 0AF",
+          "coordinates": {
+            "__typename": "LocationCoordinates",
+            "latitude": 51.463589,
+            "longitude": -0.140352,
+            "isApproximate": false
+          }
+        },
+        "detailedDescription": "The smart accommodation comprises: Entrance hallway, double bedroom with built in wardrobes, storage / utility cupboard, bathroom with shower, fully integrated kitchen, open plan to the reception, room with space to dine and large windows offering plenty of natural light.\u003cbr\u003e\u003cbr\u003eThis property has an asking price of GBP2,100.00 per calendar month and GBP484.62 per week with a 5 week security deposit amounting to GBP2,423.10 at the current asking price. This property falls into Lambeth Council Tax Band D and is offered with a minimum contract length of 12 months.",
+        "features": {
+          "__typename": "Features",
+          "bullets": [
+            "One bedroom apartment",
+            "Second floor Lift access",
+            "Juliet balcony",
+            "Prime Old Town location",
+            "Wood Floors",
+            "Underfloor heating",
+            "Council tax band: D"
+          ],
+          "flags": {
+            "__typename": "FeatureFlag",
+            "furnishedState": {
+              "__typename": "Label",
+              "name": "furnished",
+              "label": "Furnished"
+            },
+            "studentFriendly": false,
+            "tenure": null,
+            "availableFromDate": "2022-12-21T00:00:00"
+          },
+          "highlights": null
+        },
+        "floorPlan": {
+          "__typename": "FloorPlan",
+          "image": [
+            {
+              "__typename": "Media",
+              "filename": "1ae24c35f2bc4cbf74acf3a5bce6990d49ee2d9d.jpg",
+              "caption": null
+            }
+          ],
+          "links": null,
+          "pdf": null
+        },
+        "propertyImage": [
+          {
+            "__typename": "Media",
+            "filename": "57d7264590675a0c9196bf801b2ea3d610ad4b93.jpg",
+            "caption": null
+          },
+          {
+            "__typename": "Media",
+            "filename": "ec2b789aab2966820eca4b81f534e7fdf72a580c.jpg",
+            "caption": null
+          },
+          {
+            "__typename": "Media",
+            "filename": "91c0d53cab776f9537414cf99715c058e44a0e1b.jpg",
+            "caption": null
+          },
+          {
+            "__typename": "Media",
+            "filename": "6004f43c50159ed28cd6abed9e7705c2d36d4dcb.jpg",
+            "caption": null
+          },
+          {
+            "__typename": "Media",
+            "filename": "f2597a7295615f813ec14fa9b95ccf9bc623d4f4.jpg",
+            "caption": null
+          },
+          {
+            "__typename": "Media",
+            "filename": "0fd151870ac5da97aa03d45cc4f131dff1f1d71a.jpg",
+            "caption": null
+          }
+        ],
+        "analyticsTaxonomy": {
+          "__typename": "ListingAnalyticsTaxonomy",
+          "location": "London",
+          "regionName": "London",
+          "section": "to-rent",
+          "acorn": 15,
+          "acornType": 15,
+          "areaName": "London",
+          "bedsMax": 1,
+          "bedsMin": 1,
+          "branchId": 8177,
+          "branchLogoUrl": "https://st.zoocdn.com/zoopla_static_agent_logo_(249290).png",
+          "branchName": "Winkworth - Clapham",
+          "brandName": "Winkworth",
+          "chainFree": false,
+          "companyId": 4040,
+          "countryCode": "gb",
+          "countyAreaName": "London",
+          "currencyCode": "GBP",
+          "displayAddress": "Wingate Square, London SW4",
+          "furnishedState": "furnished",
+          "groupId": 44,
+          "hasEpc": true,
+          "hasFloorplan": true,
+          "incode": "0AF",
+          "isRetirementHome": false,
+          "isSharedOwnership": false,
+          "listingCondition": "pre-owned",
+          "listingId": 53370130,
+          "listingsCategory": "residential",
+          "listingStatus": "to_rent",
+          "memberType": "agent",
+          "numBaths": 1,
+          "numBeds": 1,
+          "numImages": 6,
+          "numRecepts": 1,
+          "outcode": "SW4",
+          "postalArea": "SW",
+          "postTownName": "London",
+          "priceActual": 2000,
+          "price": 2000,
+          "priceMax": 2000,
+          "priceMin": 2000,
+          "priceQualifier": "",
+          "propertyHighlight": "",
+          "propertyType": "flat",
+          "sizeSqFeet": "",
+          "tenure": null,
+          "zindex": 727702
+        },
+        "title": "1 bed flat to rent",
+        "metaTitle": "1 bed flat to rent in Wingate Square, London SW4 - Zoopla",
+        "metaDescription": "1 bed flat to rent in Wingate Square, London SW4, renting for £2,000 pcm from Winkworth - Clapham. See property details on Zoopla or browse all our range of properties in Wingate Square, London SW4.",
+        "listingUris": {
+          "__typename": "ListingUris",
+          "detail": "/to-rent/details/53370130/"
+        },
+        "displayAddress": "Wingate Square, London SW4",
+        "administrationFees": "Holding Deposit\u003cbr\u003e(per tenancy)\u003cbr\u003eOne week’s rent. This is to reserve a property. Please Note: This will be withheld if any relevant person (including any guarantor(s)) withdraw from the tenancy, fail a Right to Rent check, provide materially significant false or misleading information, or fail to sign their tenancy agreement (and / or Deed of Guarantee) within 15 calendar days (or other Deadline for Agreement as mutually agreed in writing).\u003cbr\u003eSecurity Deposit\u003cbr\u003e(per tenancy. Rent under\u003cbr\u003eGBP50,000 per year)\u003cbr\u003eFive weeks’ rent.\u003cbr\u003eThis covers damages or defaults on the part of the tenant during the tenancy.\u003cbr\u003eSecurity Deposit\u003cbr\u003e(per tenancy. Rent of\u003cbr\u003eGBP50,000 or over per year)\u003cbr\u003eSix weeks’ rent.\u003cbr\u003eThis covers damages or defaults on the part of the tenant during the tenancy.\u003cbr\u003eUnpaid Rent\u003cbr\u003eInterest at 3% above the Bank of England Base Rate from Rent Due Date until paid in order to pursue non payment of rent. Please Note: This will not be levied until the rent is more than 14 days in arrears.\u003cbr\u003eLost Key(s) or other Security Device(s)\u003cbr\u003eTenants are liable to the actual cost of replacing any lost key(s) or other security device(s). If the loss results in locks needing to be changed, the actual costs of a locksmith, new lock and replacement keys for the tenant, landlord any other persons requiring keys will be charged to the tenant. If extra costs are incurred there will be a charge of GBP15 per hour (inc. VAT) for the time taken replacing lost key(s) or other security device(s).\u003cbr\u003eVariation of Contract\u003cbr\u003e(Tenant’s Request)\u003cbr\u003eGBP50 (inc. VAT) per agreed variation. To cover the costs associated with taking landlord’s instructions as well as the preparation and execution of new legal documents.\u003cbr\u003eChange of Sharer\u003cbr\u003e(Tenant’s Request)\u003cbr\u003eGBP50 (inc. VAT) per replacement tenant or any reasonable costs incurred if higher. To cover the costs associated with taking landlord’s instructions, new tenant referencing and Right to Rent checks, deposit registration as well as the preparation and execution of new legal documents.\u003cbr\u003eEarly Termination\u003cbr\u003e(Tenant’s Request)\u003cbr\u003eShould the tenant wish to leave their contract early, they shall be liable to the landlord’s costs in re letting the property as well as all rent due under the tenancy until the start date of the replacement tenancy. These costs will be no more than the maximum amount of rent outstanding on the tenancy.",
+        "content": {
+          "__typename": "MediaContent",
+          "floorPlan": [
+            {
+              "__typename": "Media",
+              "original": "https://lc.zoocdn.com/1ae24c35f2bc4cbf74acf3a5bce6990d49ee2d9d.jpg"
+            }
+          ]
+        },
+        "statusSummary": null,
+        "tags": [],
+        "floorArea": null,
+        "pricing": {
+          "__typename": "ListingPricing",
+          "label": "£2,000 pcm",
+          "priceQualifierLabel": null,
+          "rentFrequencyLabel": "pcm",
+          "isAuction": false,
+          "pricePerFloorAreaUnit": null,
+          "alternateRentFrequencyPrice": {
+            "__typename": "PriceInfo",
+            "internalValue": 462,
+            "rentFrequencyLabel": "pw"
+          },
+          "originalCurrencyPrice": null
+        },
+        "councilTaxBand": "D",
+        "groundRent": { "__typename": "GroundRent", "label": null },
+        "deposit": { "__typename": "Deposit", "label": "£2,423" },
+        "leaseExpiry": null,
+        "serviceCharge": null,
+        "ntsInfo": [
+          {
+            "__typename": "NtsInfoItem",
+            "title": "Deposit",
+            "value": "£2,423"
+          },
+          {
+            "__typename": "NtsInfoItem",
+            "title": "Council tax band",
+            "value": "D"
+          },
+          {
+            "__typename": "NtsInfoItem",
+            "title": "Letting arrangements",
+            "value": "Not available"
+          }
+        ],
+        "analyticsEcommerce": {
+          "__typename": "ListingAnalyticsEcommerce",
+          "brand": "Winkworth",
+          "category": "to-rent/resi/agent/pre-owned/gb",
+          "id": 53370130,
+          "name": "TR_Contact",
+          "price": 1,
+          "quantity": 1,
+          "variant": "standard"
+        },
+        "uuid": "3d79da54-9b92-4393-9f0b-41d882df9be8",
+        "propertyType": "flat"
+      },
+      "__OPTIMIZELY_STATE__": [
+        "_applicant_lead_success",
+        "_details_eon-widget-new-homes",
+        "_details_eon-widget-to-rent",
+        "_details_nts_info",
+        "_details_val_lead-cc-a-s-d-c-var-2",
+        "_details_zybre-widget",
+        "_find-agents_app-react",
+        "_for-sale_landing-page-v2",
+        "_global-header",
+        "_hm-132-display-no-of-notifications.enabled",
+        "_hm-36-large-screen-notifications",
+        "_hm_139_mojo_notification_enabled",
+        "_homepage-optimisation",
+        "_lead-success_my-home-cta-modal",
+        "_my-home_matcha-carousel-active",
+        "_my-home_uprn_equity-link.variation_1",
+        "_privacy_render-flag",
+        "_property-details-floor-area-visible",
+        "_property_uprn_click-to-reveal-relationship.show_modal",
+        "_property_uprn_my-home-pdp-banner",
+        "_to-rent_landing-page-v2",
+        "hom_countdown_timestamp",
+        "hom_similar_properties_v2",
+        "leads_use_direct_ingestion_for_valuation",
+        "mov_456_my_home_experience",
+        "mov_646_seller_insights",
+        "sr_1857_nts_ldp"
+      ]
+    },
+    "__N_SSP": true
+  },
+  "page": "/to-rent/details/[listingId]",
+  "query": {
+    "featured": "1",
+    "utm_content": "featured_listing",
+    "search_identifier": "51ac40488ca4ebdb274ca9a42011865d",
+    "listingId": "53370130"
+  },
+  "buildId": "6c7d7f02prod",
+  "assetPrefix": "https://r.zoocdn.com",
+  "isFallback": false,
+  "gssp": true,
+  "scriptLoader": []
+}

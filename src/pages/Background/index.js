@@ -1,151 +1,96 @@
-const getKey = () => {
+const checkForExistingListings = () => {
   return new Promise((resolve, reject) => {
-    chrome.storage.local.get(['openai-key'], (result) => {
-      if (result['openai-key']) {
-        const decodedKey = atob(result['openai-key']);
-        resolve(decodedKey);
-      }
+    chrome.storage.local.get('homelogger-scraped-listings', (result) => {
+      console.log(result);
+      resolve(result['homelogger-scraped-listings']);
     });
   });
 };
 
-const sendScrapeRequest = () => {
-  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-    const activeTab = tabs[0].id;
+const retrieveLatestListing = async () => {
+  const retrievedProperties = await checkForExistingListings();
+  console.log(retrievedProperties);
+  const latestProperty = retrievedProperties[retrievedProperties.length - 1];
+  console.log('latest property retrieved - ', latestProperty);
+  return latestProperty;
+};
 
-    chrome.tabs.sendMessage(
-      activeTab,
-      { message: 'scrapeProperty' },
-      (response) => {
-        if (response.status === 'failed') {
-          console.log('Error: property scraping failed.');
-          console.log(response.reason);
-          return;
-        }
+const saveProperty = async (propertyObj) => {
+  if (propertyObj) {
+    const property = propertyObj;
 
-        const scrapedProperty = response.property;
+    checkForExistingListings().then((response) => {
+      if (response) {
+        const existingListings = response;
 
-        chrome.runtime.sendMessage(
-          { message: 'addProperty', property_key: scrapedProperty.propertyURL },
-          function (response) {
-            if (response.status === 'failed') {
-              console.log('Error: property scraping failed.');
-              console.log(response.reason);
-              return;
-            }
+        const updatedListings = [...existingListings, property];
 
-            console.log('Successfully rendered in pop-up');
-            return true;
+        chrome.storage.local.set({
+          'homelogger-scraped-listings': updatedListings,
+        });
+      } else {
+        // Save to google storage
+        chrome.storage.local.set(
+          { 'homelogger-scraped-listings': [property] },
+          () => {
+            document.getElementById('tenants_needed').style.display = 'none';
+            document.getElementById('no_tenants_yet').style.display = 'none';
+            document.getElementById('tenants_entered').style.display = 'block';
           }
         );
+
+        console.log('Property saved');
       }
-    );
-  });
+    });
+  }
 };
 
-/* GPT-3 functions - ignore for now 
+try {
+  const sendScrapeRequest = async () => {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      const activeTab = tabs[0].id;
 
-  // New function here
-  const generate = async (prompt) => {
-    // Get your API key from storage
-    const key = await getKey();
-    const url = "https://api.openai.com/v1/completions";
-  
-    // Call completions endpoint
-    const completionResponse = await fetch(url, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${key}`,
-      },
-      body: JSON.stringify({
-        model: "text-davinci-003",
-        prompt: prompt,
-        max_tokens: 1250,
-        temperature: 0.7,
-      }),
+      chrome.tabs.sendMessage(
+        activeTab,
+        { message: 'scrapeProperty' },
+        async (response) => {
+          console.log(response);
+          if (response?.status !== 'success') {
+            console.log('Error: property scraping failed.');
+            console.log('response -', response);
+            console.log(response.reason);
+            return;
+          } else {
+            console.log('Property scraping succeeded.');
+            let property = await retrieveLatestListing();
+            console.log(property);
+          }
+        }
+      );
     });
-  
-    // Select the top choice and send back
-    const completion = await completionResponse.json();
-    return completion.choices.pop();
   };
-  
-  const generateCompletionAction = async (info) => {
-    try {
-      sendMessage("generating...");
-      const tenantDetails = (tenantGroup) => {
-        let details = "";
-        tenantGroup.tenantDetails.forEach((tenant, index) => {
-          details += `Tenant ${index + 1}\n`;
-          Object.keys(tenant).forEach((key) => {
-            details += `- ${key} = ${tenant[key]}\n`;
-          });
-        });
-        return details;
-      };
-  
-      const getTenantGroup = () => {
-        return new Promise((resolve, reject) => {
-          chrome.storage.local.get(["rentletter-tenant-group"], (result) => {
-            if (result["rentletter-tenant-group"]) {
-              resolve(result["rentletter-tenant-group"]);
-            }
-          });
-        });
-      };
-  
-      const tenantArray = await getTenantGroup();
-  
-      const tenantGroup = {
-        tenantDetails: tenantArray,
-        relationshipType: "in a relationship",
-      };
-  
-      if (tenantGroup) {
-        console.log(tenantArray);
-        console.log(tenantGroup);
-        const pronoun = () =>
-          tenantGroup.tenantDetails.length == 1 ? "I" : "we";
-        const declarative = () =>
-          tenantGroup.tenantDetails.length == 1 ? "I am" : "We are";
-        const possessivePronoun = () =>
-          tenantGroup.tenantDetails.length == 1 ? "my" : "our";
-  
-        const tenantPlural = () =>
-          tenantDetails.length > 1 ? "good tenants" : "a good tenant";
-  
-        const prompt = `${declarative()} ${(tenantGroup.tenantRelationship = ""
-          ? "an individual tenant."
-          : tenantGroup.tenantRelationship)}. Write a letter that ${pronoun()} can attach to a house offer to convince the landlord that ${pronoun()} would be ${tenantPlural()}, and that they should choose ${possessivePronoun()} offer. The letter should be 500+ characters, written in British English, and be emotionally persuasive.`;
-  
-        const basePromptPrefix = prompt;
-  
-        //   console.log(`API: ${basePromptPrefix}\n\n${tenantDetails(tenantGroup)}`);
-  
-        const finalPrompt = `${basePromptPrefix}\n\n${tenantDetails(
-          tenantGroup
-        )}\n\nLetter:\n`;
-  
-        // Add this to call GPT-3
-        const baseCompletion = await generate(finalPrompt);
-  
-        // Let's see what we get!
-        console.log(baseCompletion.text);
-        sendMessage(baseCompletion.text);
-      }
-    } catch (error) {
-      console.log(error);
-      sendMessage(error.toString());
+
+  chrome.runtime.onMessage.addListener(function (
+    request,
+    sender,
+    sendResponse
+  ) {
+    if (request?.message === 'scrapePage') {
+      sendScrapeRequest();
+      sendResponse({ status: 'success' });
     }
-  };
-  */
+  });
 
-// Don't touch this
-chrome.contextMenus.create({
-  id: 'context-run',
-  title: 'Scrape property details',
-  contexts: ['editable'],
-});
+  // Don't touch this
+  chrome.contextMenus.remove('homelogger', function () {
+    chrome.contextMenus.create({
+      id: 'homelogger',
+      title: 'Scrape property details',
+      contexts: ['all'],
+    });
+  });
 
-chrome.contextMenus.onClicked.addListener(sendScrapeRequest);
+  chrome.contextMenus.onClicked.addListener(sendScrapeRequest);
+} catch (e) {
+  console.error(e);
+}

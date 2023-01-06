@@ -2,9 +2,6 @@
 import React from 'react';
 
 const PropertyViewer = (property) => {
-  //   const [property, setProperty] = useState({});
-
-  //   setProperty(data);
   return (
     <div id="property-viewer" className="most-recent">
       <p>Address: {property.address}</p>

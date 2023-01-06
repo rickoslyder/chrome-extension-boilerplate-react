@@ -1,0 +1,574 @@
+{
+  "rightmoveData": {
+    "propertyData": {
+      "id": "129435497",
+      "status": {
+        "published": true,
+        "archived": false
+      },
+      "text": {
+        "description": "Stockwell Garden Estate : SW9 : The property would be fully painted and all necessary cosmetic works would be done before new tenants move in, in Jan. You would NOT want to miss this one!! This property is a very spacious three double bedroom, first floor apartment with a separate living room, separate bathroom and WC and a decent size kitchen. As mentioned at the start the property would go throughs works of fresh paint and new silica etc and would perfectly suit either 3 young professionals or a family who want to live just of Brixton road and moments away from all necessary amenities and public transport including night buses. Call now on   to book a viewing.  Council tax: TBC.",
+        "propertyPhrase": "3 bedroom flat",
+        "auctionFeesDisclaimer": null,
+        "guidePriceDisclaimer": null,
+        "reservePriceDisclaimer": null,
+        "staticMapDisclaimerText": "Map data ©<a href=\"http://www.openstreetmap.org/copyright\" rel=\"nofollow\" target=\"_blank\" title=\"Open Street Map\">OpenStreetMap</a> contributors.",
+        "newHomesBrochureDisclaimer": "Please note that Rightmove will send the above details to ludlowthompson only. By submitting this form, you confirm that you agree to our website <a href=\"/this-site/terms-of-use.html\">terms of use</a>, our <a href=\"/this-site/privacy-policy.html\">privacy policy</a> and understand how we store <a href=\"/this-site/cookies.html\">cookies</a> on your device.",
+        "shareText": "Check out this 3 bedroom flat for rent on Rightmove",
+        "shareDescription": "3 bedroom flat for rent in Stockwell Gardens Estate, London SW9 for £2,795 pcm. Marketed by ludlowthompson, Kennington Oval - Lettings",
+        "pageTitle": "3 bedroom flat for rent in Stockwell Gardens Estate, London SW9",
+        "shortDescription": "3 bedroom flat for rent"
+      },
+      "prices": {
+        "primaryPrice": "£2,795 pcm",
+        "secondaryPrice": "£645 pw",
+        "displayPriceQualifier": "Offers in Region of",
+        "pricePerSqFt": null,
+        "message": null,
+        "exchangeRate": null
+      },
+      "address": {
+        "displayAddress": "Stockwell Gardens Estate, London SW9",
+        "countryCode": "GB",
+        "deliveryPointId": 82527970,
+        "ukCountry": "England",
+        "outcode": "SW9",
+        "incode": "9AD"
+      },
+      "keyFeatures": [
+        "Three Doubles",
+        "Low Rise",
+        "Opposite Stockwell station",
+        "Will be fully painted",
+        "Perfect for 3 sharers"
+      ],
+      "images": [
+        {
+          "url": "https://media.rightmove.co.uk/6k/5479/129435497/5479_2363151_IMG_00_0000.jpeg",
+          "caption": null,
+          "resizedImageUrls": {
+            "size135x100": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_00_0000_max_135x100.jpeg",
+            "size476x317": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_00_0000_max_476x317.jpeg",
+            "size656x437": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_00_0000_max_656x437.jpeg"
+          }
+        },
+        {
+          "url": "https://media.rightmove.co.uk/6k/5479/129435497/5479_2363151_IMG_01_0000.jpeg",
+          "caption": "Bedroom",
+          "resizedImageUrls": {
+            "size135x100": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_01_0000_max_135x100.jpeg",
+            "size476x317": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_01_0000_max_476x317.jpeg",
+            "size656x437": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_01_0000_max_656x437.jpeg"
+          }
+        },
+        {
+          "url": "https://media.rightmove.co.uk/6k/5479/129435497/5479_2363151_IMG_02_0000.jpeg",
+          "caption": "Lounge",
+          "resizedImageUrls": {
+            "size135x100": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_02_0000_max_135x100.jpeg",
+            "size476x317": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_02_0000_max_476x317.jpeg",
+            "size656x437": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_02_0000_max_656x437.jpeg"
+          }
+        },
+        {
+          "url": "https://media.rightmove.co.uk/6k/5479/129435497/5479_2363151_IMG_03_0000.jpeg",
+          "caption": "Lounge",
+          "resizedImageUrls": {
+            "size135x100": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_03_0000_max_135x100.jpeg",
+            "size476x317": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_03_0000_max_476x317.jpeg",
+            "size656x437": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_03_0000_max_656x437.jpeg"
+          }
+        },
+        {
+          "url": "https://media.rightmove.co.uk/6k/5479/129435497/5479_2363151_IMG_04_0000.jpeg",
+          "caption": "Bathroom",
+          "resizedImageUrls": {
+            "size135x100": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_04_0000_max_135x100.jpeg",
+            "size476x317": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_04_0000_max_476x317.jpeg",
+            "size656x437": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_04_0000_max_656x437.jpeg"
+          }
+        },
+        {
+          "url": "https://media.rightmove.co.uk/6k/5479/129435497/5479_2363151_IMG_05_0000.jpeg",
+          "caption": "Kitchen",
+          "resizedImageUrls": {
+            "size135x100": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_05_0000_max_135x100.jpeg",
+            "size476x317": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_05_0000_max_476x317.jpeg",
+            "size656x437": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_05_0000_max_656x437.jpeg"
+          }
+        },
+        {
+          "url": "https://media.rightmove.co.uk/6k/5479/129435497/5479_2363151_IMG_06_0000.jpeg",
+          "caption": "Exterior",
+          "resizedImageUrls": {
+            "size135x100": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_06_0000_max_135x100.jpeg",
+            "size476x317": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_06_0000_max_476x317.jpeg",
+            "size656x437": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_06_0000_max_656x437.jpeg"
+          }
+        },
+        {
+          "url": "https://media.rightmove.co.uk/6k/5479/129435497/5479_2363151_IMG_07_0000.jpeg",
+          "caption": "Floorplan",
+          "resizedImageUrls": {
+            "size135x100": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_07_0000_max_135x100.jpeg",
+            "size476x317": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_07_0000_max_476x317.jpeg",
+            "size656x437": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_IMG_07_0000_max_656x437.jpeg"
+          }
+        }
+      ],
+      "floorplans": [
+        {
+          "url": "https://media.rightmove.co.uk/6k/5479/129435497/5479_2363151_FLP_00_0000.jpeg",
+          "caption": "floorplan",
+          "type": "IMAGE",
+          "resizedFloorplanUrls": {
+            "size296x197": "https://media.rightmove.co.uk/dir/6k/5479/129435497/5479_2363151_FLP_00_0000_max_296x197.jpeg"
+          }
+        }
+      ],
+      "virtualTours": [
+        {
+          "url": "https://www.ludlowthompson.com/2363151",
+          "caption": "Video Tour",
+          "videoId": null,
+          "provider": "NONE"
+        }
+      ],
+      "customer": {
+        "branchId": 5479,
+        "branchName": "Kennington Oval - Lettings",
+        "branchDisplayName": "ludlowthompson, Kennington Oval - Lettings",
+        "companyName": "ludlowthompson",
+        "companyTradingName": "ludlowthompson",
+        "displayAddress": "4 - 6 Clapham Road,\r\nLondon,\r\nSW9 0JG",
+        "logoPath": "https://media.rightmove.co.uk/company/clogo_1674_0018.jpeg",
+        "customerDescription": {
+          "truncatedDescriptionHTML": "<p><b>Do you dream of an Estate Agent that works as hard as you? </b></p><p>ludlowthompson is an award-winning, accredited, cutting-edge estate agency in London with over 20 year's expertise.</p>",
+          "isTruncated": false
+        },
+        "bannerAd": "https://media.rightmove.co.uk/6k/5479/1603115363514_bp_pd_h.jpg",
+        "mpuAd": "https://media.rightmove.co.uk/6k/5479/1567699944367_bp_mpu.gif",
+        "customerProfileUrl": "/estate-agents/agent/ludlowthompson/Kennington-Oval---Lettings-5479.html",
+        "customerBannerAdProfileUrl": "/estate-agents/agent/ludlowthompson/Kennington-Oval---Lettings-5479.html#lam_about_us",
+        "customerMpuAdProfileUrl": "/estate-agents/agent/ludlowthompson/Kennington-Oval---Lettings-5479.html#lam_about_us",
+        "customerPropertiesUrl": "/property-to-rent/find/ludlowthompson/Kennington-Oval---Lettings.html?locationIdentifier=BRANCH%5E5479&propertyStatus=all&includeLetAgreed=true&_includeLetAgreed=on",
+        "isNewHomeDeveloper": false,
+        "spotlight": null,
+        "showBrochureLeadModal": false,
+        "developmentInfo": {
+          "sitePlanUri": null,
+          "micrositeFeatures": []
+        },
+        "buildToRent": false,
+        "commercial": false,
+        "buildToRentBenefits": []
+      },
+      "industryAffiliations": [
+        {
+          "name": "Association of Residential Letting Agents",
+          "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/association-of-residential-lettings-agent_max_135x100.png"
+        },
+        {
+          "name": "National Association of Estate Agents",
+          "imagePath": "https://media.rightmove.co.uk/dir/customer/industry-affiliation/national-association-of-estate-agents_max_135x100.png"
+        }
+      ],
+      "rooms": [
+        {
+          "name": "Bedroom",
+          "description": null,
+          "width": null,
+          "length": null,
+          "unit": "m",
+          "dimension": null
+        },
+        {
+          "name": "Lounge",
+          "description": null,
+          "width": null,
+          "length": null,
+          "unit": "m",
+          "dimension": null
+        },
+        {
+          "name": "Second Lounge",
+          "description": null,
+          "width": null,
+          "length": null,
+          "unit": "m",
+          "dimension": null
+        },
+        {
+          "name": "Bathroom",
+          "description": null,
+          "width": null,
+          "length": null,
+          "unit": "m",
+          "dimension": null
+        },
+        {
+          "name": "Kitchen",
+          "description": null,
+          "width": null,
+          "length": null,
+          "unit": "m",
+          "dimension": null
+        },
+        {
+          "name": "Exterior",
+          "description": null,
+          "width": null,
+          "length": null,
+          "unit": "m",
+          "dimension": null
+        },
+        {
+          "name": "Floorplan",
+          "description": null,
+          "width": null,
+          "length": null,
+          "unit": "m",
+          "dimension": null
+        }
+      ],
+      "location": {
+        "latitude": 51.47187,
+        "longitude": -0.12175,
+        "circleRadiusOnMap": 0,
+        "zoomLevel": 15,
+        "pinType": "APPROXIMATE_POINT",
+        "showMap": true
+      },
+      "streetView": {
+        "heading": null,
+        "pitch": null,
+        "zoom": null,
+        "latitude": 51.47187,
+        "longitude": -0.12175
+      },
+      "nearestAirports": [],
+      "nearestStations": [
+        {
+          "name": "Stockwell Station",
+          "types": ["LONDON_UNDERGROUND"],
+          "distance": 0.04483810644331464,
+          "unit": "miles"
+        },
+        {
+          "name": "Clapham North Station",
+          "types": ["LONDON_UNDERGROUND"],
+          "distance": 0.5966460405959171,
+          "unit": "miles"
+        },
+        {
+          "name": "Nine Elms Station",
+          "types": ["LONDON_UNDERGROUND"],
+          "distance": 0.6260872856379861,
+          "unit": "miles"
+        }
+      ],
+      "showSchoolInfo": true,
+      "countryGuide": null,
+      "channel": "RES_LET",
+      "propertyUrls": {
+        "similarPropertiesUrl": "/property-to-rent/SW9-9AD.html?radius=0.5&minPrice=2500&maxPrice=3500&minBedrooms=3",
+        "nearbySoldPropertiesUrl": "/house-prices/sw9-9ad.html"
+      },
+      "sizings": [],
+      "brochures": [
+        {
+          "url": "https://www.ludlowthompson.com/particulars/details/print_particulars.pdf?id=2363151",
+          "caption": "Brochure 1"
+        }
+      ],
+      "epcGraphs": [
+        {
+          "url": "https://media.rightmove.co.uk/6k/5479/129435497/5479_2363151_EPCGRAPH_00_0000.jpeg",
+          "caption": "EPC 1"
+        }
+      ],
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "transactionType": "RENT",
+      "tags": [],
+      "misInfo": {
+        "branchId": 5479,
+        "offerAdvertStampTypeId": null,
+        "premiumDisplay": false,
+        "premiumDisplayStampId": null,
+        "brandPlus": true,
+        "featuredProperty": true
+      },
+      "dfpAdInfo": {
+        "channel": "RES_LET",
+        "targeting": [
+          {
+            "key": "SO",
+            "value": ["FALSE"]
+          },
+          {
+            "key": "R",
+            "value": ["FALSE"]
+          },
+          {
+            "key": "AUCP",
+            "value": ["FALSE"]
+          },
+          {
+            "key": "CCY",
+            "value": ["GBP"]
+          },
+          {
+            "key": "UTo_A",
+            "value": ["SW"]
+          },
+          {
+            "key": "UTo_C",
+            "value": ["GB"]
+          },
+          {
+            "key": "CT",
+            "value": ["property-to-rent"]
+          },
+          {
+            "key": "TT",
+            "value": ["rent"]
+          },
+          {
+            "key": "BD",
+            "value": ["3"]
+          },
+          {
+            "key": "PT",
+            "value": ["flats_apartments"]
+          },
+          {
+            "key": "PST",
+            "value": ["flat"]
+          },
+          {
+            "key": "RESALEPRICE",
+            "value": ["2795"]
+          },
+          {
+            "key": "B",
+            "value": ["Band9"]
+          },
+          {
+            "key": "B_ID",
+            "value": ["5479"]
+          },
+          {
+            "key": "C_ID",
+            "value": ["ludlowthompson"]
+          },
+          {
+            "key": "FP",
+            "value": ["Y"]
+          },
+          {
+            "key": "EPC",
+            "value": ["Y"]
+          },
+          {
+            "key": "P_ID",
+            "value": ["129435497"]
+          },
+          {
+            "key": "OV",
+            "value": ["N"]
+          },
+          {
+            "key": "UTo_D",
+            "value": ["SW9"]
+          },
+          {
+            "key": "UTo_Inc",
+            "value": ["9AD"]
+          },
+          {
+            "key": "F",
+            "value": ["garden"]
+          },
+          {
+            "key": "FS",
+            "value": ["unfurnished", "furnished", "partFurnished"]
+          },
+          {
+            "key": "UTo_UKZ",
+            "value": ["England"]
+          }
+        ]
+      },
+      "staticMapImgUrls": {
+        "staticMapImgUrlMobile": "https://media.rightmove.co.uk/map/_generate?width=375&height=375&zoomLevel=15&latitude=51.47187&longitude=-0.12175&signature=V1M0KFIC6V6EB_7hACUcd1AMAZI=",
+        "staticMapImgUrlTablet": "https://media.rightmove.co.uk/map/_generate?width=768&height=347&zoomLevel=15&latitude=51.47187&longitude=-0.12175&signature=5irH_2oKTP-Dp1dJ4KB-y4v_1ac=",
+        "staticMapImgUrlDesktopSmall": "https://media.rightmove.co.uk/map/_generate?width=580&height=347&zoomLevel=15&latitude=51.47187&longitude=-0.12175&signature=1hfoqD3H87Z3XzrnOTW0mKbowpw=",
+        "staticMapImgUrlDesktopLarge": "https://media.rightmove.co.uk/map/_generate?width=761&height=347&zoomLevel=15&latitude=51.47187&longitude=-0.12175&signature=nNipCAUuPUFeGe9GhPkpJ_V0GHc="
+      },
+      "listingHistory": {
+        "listingUpdateReason": "Reduced on 29/11/2022"
+      },
+      "broadbandCheckerUrl": "https://partnerships-broadband.comparethemarket.com/v1/broadband/rightmove/SW99AD?apikey=886420dd2f03c0835344c7aa09c3f1cde6c74703c5f27114a4f4e10979514b91"
+    },
+    "contactInfo": {
+      "contactMethod": "EMAIL",
+      "telephoneNumbers": {
+        "localNumber": "020 3869 9444",
+        "internationalNumber": null,
+        "disclaimerText": null,
+        "disclaimerTitle": null,
+        "disclaimerDescription": null
+      }
+    },
+    "lettings": {
+      "letAvailableDate": "14/01/2023",
+      "deposit": null,
+      "minimumTermInMonths": null,
+      "letType": "Long term",
+      "furnishType": "Furnished or unfurnished, landlord is flexible"
+    },
+    "infoReelItems": [
+      {
+        "title": "PROPERTY TYPE",
+        "type": "PROPERTY_TYPE",
+        "primaryText": "Flat",
+        "secondaryText": "",
+        "tooltipText": ""
+      },
+      {
+        "title": "BEDROOMS",
+        "type": "BEDROOMS",
+        "primaryText": "×3",
+        "secondaryText": "",
+        "tooltipText": ""
+      },
+      {
+        "title": "BATHROOMS",
+        "type": "BATHROOMS",
+        "primaryText": "×1",
+        "secondaryText": "",
+        "tooltipText": ""
+      }
+    ],
+    "mortgageCalculator": null,
+    "tenure": {
+      "tenureType": null,
+      "yearsRemainingOnLease": null,
+      "message": null
+    },
+    "soldPropertyType": "FLAT",
+    "auctionProvider": null,
+    "propertySubType": "Flat",
+    "businessForSale": false,
+    "commercial": false,
+    "commercialUseClasses": [],
+    "affordableBuyingScheme": false,
+    "sharedOwnership": {
+      "sharedOwnership": false,
+      "ownershipPercentage": null,
+      "rentPrice": null,
+      "rentFrequency": "not specified"
+    },
+    "livingCosts": {
+      "councilTaxExempt": false,
+      "councilTaxIncluded": false,
+      "annualGroundRent": null,
+      "groundRentReviewPeriodInYears": null,
+      "groundRentPercentageIncrease": null,
+      "annualServiceCharge": null,
+      "councilTaxBand": "H",
+      "domesticRates": null
+    }
+  },
+  "metadata": {
+    "publicsiteUrl": "//www.rightmove.co.uk",
+    "cookieDomain": "rightmove.co.uk",
+    "currencyCode": "",
+    "emailAgentUrl": "/property-to-rent/contactBranch.html?backListLink=%2Fproperty-to-rent%2Ffind.html%3FsearchType%3DRENT%26locationIdentifier%3DSTATION%255E2159%26insId%3D1%26radius%3D1.0%26minPrice%3D%26maxPrice%3D%26minBedrooms%3D%26maxBedrooms%3D%26displayPropertyType%3D%26maxDaysSinceAdded%3D%26sortByPriceDescending%3D%26_includeLetAgreed%3Don%26primaryDisplayPropertyType%3D%26secondaryDisplayPropertyType%3D%26oldDisplayPropertyType%3D%26oldPrimaryDisplayPropertyType%3D%26letType%3D%26letFurnishType%3D%26houseFlatShare%3D&backToPropertyURL=%2Fproperties%2F129435497&propertyId=129435497",
+    "facebookShareUrl": "https://facebook.com/share.php?u=https%3A%2F%2Fwww.rightmove.co.uk%2Fproperties%2F129435497%3Futm_campaign%3Dproperty-details%26utm_content%3Dlettings%26utm_medium%3Dsharing%26utm_source%3Dfacebook%23%2F%26channel%3DRES_LET",
+    "twitterShareUrl": "https://twitter.com/share?text=Check out this 3 bedroom flat for rent on Rightmove&url=https%3A%2F%2Fwww.rightmove.co.uk%2Fproperties%2F129435497%3Futm_campaign%3Dproperty-details%26utm_content%3Dlettings%26utm_medium%3Dsharing%26utm_source%3Dtwitter%23%2F%26channel%3DRES_LET",
+    "emailShareUrl": "mailto:?subject=Check%20out%20this%203%20bedroom%20flat%20for%20rent%20on%20Rightmove&body=Check%20out%20this%203%20bedroom%20flat%20for%20rent%20in%20Stockwell%20Gardens%20Estate,%20London%20SW9%20for%20%C2%A32,795%20pcm.%20Marketed%20by%20ludlowthompson,%20Kennington%20Oval%20-%20Lettings%20on%20Rightmove%0Ahttps%3A%2F%2Fwww.rightmove.co.uk%2Fproperties%2F129435497%3Futm_campaign%3Dproperty-details%26utm_content%3Dlettings%26utm_medium%3Demail%26utm_source%3Dsendtofriend%23%2F%26channel%3DRES_LET",
+    "copyLinkUrl": "https://www.rightmove.co.uk/properties/129435497?utm_campaign=property-details&utm_content=lettings&utm_medium=sharing&utm_source=copytoclipboard#/&channel=RES_LET",
+    "whatsAppShareUrl": "https://web.whatsapp.com/send?text=Check%20out%20this%203%20bedroom%20flat%20for%20rent%20on%20Rightmove%0Ahttps%3A%2F%2Fwww.rightmove.co.uk%2Fproperties%2F129435497%3Futm_campaign%3Dproperty-details%26utm_content%3Dlettings%26utm_medium%3Dsharing%26utm_source%3Dwhatsapp%23%2F%26channel%3DRES_LET",
+    "linkedInShareUrl": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.rightmove.co.uk%2Fproperties%2F129435497%3Futm_campaign%3Dproperty-details%26utm_content%3Dlettings%26utm_medium%3Dsharing%26utm_source%3Dlinkedin%23%2F%26channel%3DRES_LET",
+    "myRightmoveUrl": "//my.rightmove.co.uk",
+    "mediaServerUrl": "//media.rightmove.co.uk",
+    "serverTimestamp": 1669861740549,
+    "deviceType": "desktop",
+    "deviceTypeForLazyLoad": "desktop",
+    "deviceOS": "other",
+    "adUnitPath": {
+      "mpu1": "/5029762/Rightmove_Property_Details_Web/UK_Lettings_MPU1",
+      "trackingPixel": "/5029762/Rightmove_Property_Details_Web/Tracking_Pixel",
+      "ukCreditCheckSponsorship": "/5029762/Rightmove_Property_Details_Web/UK_Sponsorship_Text-link_Property-Details"
+    },
+    "backLink": {
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?searchType=RENT&locationIdentifier=STATION%5E2159&insId=1&radius=1.0&minPrice=&maxPrice=&minBedrooms=&maxBedrooms=&displayPropertyType=&maxDaysSinceAdded=&sortByPriceDescending=&_includeLetAgreed=on&primaryDisplayPropertyType=&secondaryDisplayPropertyType=&oldDisplayPropertyType=&oldPrimaryDisplayPropertyType=&letType=&letFurnishType=&houseFlatShare=#prop129435497",
+      "text": "Back to search results",
+      "operation": 1
+    },
+    "shouldTrackGTMSuccessTracker": false,
+    "emailPreferences": {
+      "preferencesUrl": "//my.rightmove.co.uk",
+      "showModal": false,
+      "source": ""
+    },
+    "staticAssetsPath": "https://media.rightmove.co.uk/assets/a04c507a807f8bdd7543a397a71b0ac4/modern",
+    "staticImagesAndFontsPath": "https://media.rightmove.co.uk/assets/a04c507a807f8bdd7543a397a71b0ac4",
+    "correlationId": "8be9be8d-9928-4e5c-aa71-3fed059857f5",
+    "locationSearchUrl": "//los.rightmove.co.uk",
+    "marketTrendsExperimentId": "",
+    "serveEs6Bundles": true
+  },
+  "isAuthenticated": false,
+  "analyticsInfo": {
+    "analyticsBranch": {
+      "agentType": "ea_lettings",
+      "branchId": 5479,
+      "branchName": "Kennington Oval - Lettings",
+      "branchPostcode": null,
+      "brandName": "ludlowthompson",
+      "companyName": "ludlowthompson",
+      "companyTradingName": "ludlowthompson",
+      "companyType": "iea",
+      "displayAddress": "4 - 6 Clapham Road,\r\nLondon,\r\nSW9 0JG",
+      "pageType": "Microsite"
+    },
+    "analyticsProperty": {
+      "added": "20221124",
+      "auctionOnly": false,
+      "beds": 3,
+      "businessForSale": false,
+      "country": "GB",
+      "currency": "GBP",
+      "floorplanCount": 1,
+      "furnishedType": "Furnished or unfurnished, landlord is flexible",
+      "hasOnlineViewing": false,
+      "imageCount": 8,
+      "latitude": 51.47187,
+      "longitude": -0.12175,
+      "letAgreed": false,
+      "lettingType": "Long term",
+      "maxSizeAc": null,
+      "maxSizeFt": null,
+      "minSizeAc": null,
+      "minSizeFt": null,
+      "ownership": "Non-shared ownership",
+      "postcode": "SW9 9AD",
+      "preOwned": "Resale",
+      "price": 2795,
+      "priceQualifier": "Offers in Region of",
+      "propertyId": 129435497,
+      "propertySubType": "Flat",
+      "propertyType": "Flats / Apartments",
+      "retirement": false,
+      "selectedCurrency": null,
+      "selectedPrice": null,
+      "soldSTC": false,
+      "videoProvider": "External Link",
+      "viewType": "Current",
+      "customUri": "https://www.rightmove.co.uk/property-to-rent/properties"
+    }
+  }
+}

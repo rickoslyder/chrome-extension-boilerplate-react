@@ -21,6 +21,10 @@
   }
 }
 
+.wrap {
+  white-space: pre-wrap; /* preserve whitespace and wrap text */
+}
+
 .App-header {
   height: 100%;
   display: flex;
